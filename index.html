@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos esenciales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jean Paul Ramirez hoyos - Desarrollador Full Stack especializado en aplicaciones web modernas">
+    <meta name="keywords" content="desarrollador, full stack, JavaScript, React, Node.js">
+    <meta name="author" content="Jean Paul Ramirez hoyos">
+    <title>Jean Paul - Desarrollador Full Stack</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Logo y navegación -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <span>AM.dev</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#about">Servicios</a></li>
+                    <li><a href="#gallery">Portfolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section class="hero" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Soy <span class="highlight">Jean</span><br>
+                            Desarrollador Full Stack
+                        </h1>
+                        <p class="hero-subtitle">
+                            Creo aplicaciones web modernas y escalables que transforman ideas en realidades digitales. 
+                            Especializado en React, Node.js y tecnologías de vanguardia.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="modern-button primary">Ver Portfolio</button>
+                            <button class="modern-button secondary">Descargar CV</button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <div class="floating-elements">
+                                <div class="element element-1"><i class="fab fa-react"></i></div>
+                                <div class="element element-2"><i class="fab fa-node-js"></i></div>
+                                <div class="element element-3"><i class="fab fa-js-square"></i></div>
+                                <div class="element element-4"><i class="fab fa-python"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros/Servicios -->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="section-header">
+                    <h2>Mis Servicios</h2>
+                    <p>Soluciones tecnológicas completas para tu negocio</p>
+                </div>
+                
+                <!-- 3 cards con información relevante -->
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Desarrollo Frontend</h3>
+                        <p>Interfaces de usuario modernas y responsivas usando React, Vue.js y las últimas tecnologías CSS. Experiencias interactivas que cautivan a tus usuarios.</p>
+                        <ul>
+                            <li>React & Vue.js</li>
+                            <li>CSS3 & Sass</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card featured">
+                        <div class="card-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Desarrollo Backend</h3>
+                        <p>APIs robustas y escalables con Node.js, Python y bases de datos modernas. Arquitecturas sólidas que soportan el crecimiento de tu negocio.</p>
+                        <ul>
+                            <li>Node.js & Express</li>
+                            <li>Python & Django</li>
+                            <li>MongoDB & PostgreSQL</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="card-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Apps Móviles</h3>
+                        <p>Aplicaciones móviles nativas y híbridas que ofrecen experiencias fluidas en iOS y Android. Tu negocio en el bolsillo de tus clientes.</p>
+                        <ul>
+                            <li>React Native</li>
+                            <li>Flutter</li>
+                            <li>Progressive Web Apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Galería/Portfolio -->
+        <section class="gallery" id="gallery">
+            <div class="gallery-container">
+                <div class="section-header">
+                    <h2>Mi Portfolio</h2>
+                    <p>Algunos de mis proyectos más destacados</p>
+                </div>
+                
+                <!-- Mínimo 4 imágenes con hover effects -->
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop" alt="E-commerce Platform">
+                            <div class="portfolio-overlay">
+                                <h4>E-commerce Platform</h4>
+                                <p>Plataforma completa de comercio electrónico con React y Node.js</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop" alt="Analytics Dashboard">
+                            <div class="portfolio-overlay">
+                                <h4>Analytics Dashboard</h4>
+                                <p>Dashboard interactivo para análisis de datos en tiempo real</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop" alt="Task Management App">
+                            <div class="portfolio-overlay">
+                                <h4>Task Management App</h4>
+                                <p>Aplicación de gestión de tareas con funcionalidades avanzadas</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&h=300&fit=crop" alt="Social Media App">
+                            <div class="portfolio-overlay">
+                                <h4>Social Media App</h4>
+                                <p>Red social moderna con chat en tiempo real y multimedia</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                    <a href="#" class="portfolio-link"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="section-header">
+                    <h2>¡Trabajemos Juntos!</h2>
+                    <p>¿Tienes un proyecto en mente? Hablemos sobre cómo puedo ayudarte</p>
+                </div>
+                
+                <!-- Información de contacto atractiva -->
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>mh2165184@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono</h4>
+                                <p>+57 314 749 7692</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <p>Pereira, Colombia</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Horario</h4>
+                                <p>Lun - Vie: 5AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" placeholder="Tu Nombre" required>
+                                <input type="email" placeholder="Tu Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" placeholder="Asunto" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="modern-button primary full-width">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Enlaces sociales y copyright -->
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-code"></i>
+                    <span>AM.dev</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="https://github.com/pol121212"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#hero">Inicio</a>
+                    <a href="#about">Servicios</a>
+                    <a href="#gallery">Portfolio</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jean Paul Ramirez. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
